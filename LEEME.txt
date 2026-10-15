@@ -1,0 +1,31 @@
+FRANK STORE — CATÁLOGO WEB CON LOGO ORIGINAL
+
+ARCHIVOS
+- index.html: página web con diseño negro/naranja y el logo dorado incorporado.
+- images/logo-frank-store.png: logo original utilizado por la página.
+
+FUNCIONES
+- Diseño adaptable a teléfonos y computadoras.
+- Buscador, categorías y orden por precio.
+- Botón de consultas y pedidos por WhatsApp (+584128729522).
+- Catálogo vacío preparado para añadir productos reales más adelante.
+
+PARA PUBLICAR GRATIS CON GITHUB PAGES
+1. Entra a https://github.com desde el navegador y crea una cuenta o inicia sesión.
+2. Crea un repositorio público llamado frank-store-catalogo.
+3. Descomprime este ZIP en tu teléfono o computadora.
+4. Sube index.html y la carpeta images completa (debe conservarse la ruta images/logo-frank-store.png).
+5. En el repositorio, abre Settings > Pages.
+6. En Build and deployment, selecciona Deploy from a branch; elige la rama main y la carpeta /(root), y guarda.
+7. Espera a que GitHub Pages publique la página y abre el enlace que te muestre.
+
+PARA AÑADIR PRODUCTOS DESPUÉS
+Edita index.html y busca const PRODUCTS = [
+Añade objetos con datos reales, por ejemplo:
+{code:"FS001", name:"Nombre del producto", category:"Accesorios", price:19.99, description:"Descripción breve", image:"images/producto.jpg"}
+Para fotos adicionales, súbelas a la carpeta images y utiliza su ruta en el campo image.
+
+IMPORTANTE
+- No se han inventado productos ni precios.
+- Mantén index.html y la carpeta images juntos al publicar.
+- Comprueba que el número de WhatsApp esté activo antes de compartir el sitio.
